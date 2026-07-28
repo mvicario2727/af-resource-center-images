@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title trn="login title">Login</title>
+    <script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10341260622154106.js" data-dtconfig="rid=RID_25392695|rpid=503704975|domain=anytimefitness.com|reportUrl=/rb_bf83772fza|app=26b62c2cc49963dd|cuc=1lv611gs|owasp=1|mel=100000|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1783625927019|srsr=0|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10341260622154106.js"></script><link rel="shortcut icon" atype="image/x-icon" href="/Content/favicon.ico" />
+<link rel="manifest" href="/Content/site.webmanifest">
+<link rel="apple-touch-icon" href="/Content/apple-touch-icon.png">
+
+    
+                <link href="/Content/Styles/brand_af.css?update=1" rel="stylesheet" />
+                <link href="/Content/Styles/af-auth.css" rel="stylesheet" />
+
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="../../Translations/translate.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        translatePage(document);
+        setDir(document);
+    });
+</script>
+
+
+</head>
+
+<body class="logged-out">
+    <div id="main">
+        
+            <img class="brand" src="//anytimefitness.blob.core.windows.net/shared-assets/sites/af/consumer/img/logo-af.svg" alt="Anytime Fitness">
+
+        <form method="POST">
+            <h2 trn="login title">Authorization</h2>
+
+            <div>
+                <div class="auth-form-row">
+                    <label for="username" trn="username label">Username (Email):</label>
+                    <input type="email" id="username" name="username" />
+                </div>
+                <div class="auth-form-row">
+                    <label for="password" trn="password label">Password:</label>
+                    <input type="password" id="password" name="password" />
+                </div>
+                <div class="auth-form-row">
+                    <input type="checkbox" id="isPersistent" name="isPersistent" />
+                    <label for="isPersistent" trn="is persistent">Remember Me</label><br>
+                    <input type="hidden" name="domain" value="1" />
+                    <input type="hidden" name="application" value="8" />
+                    <input type="submit" name="submit.Signin" trn="sign in button"/>
+                    <div style="margin-top: 20px;">
+                        <a href="/Account/Forgot?domain=1&amp;application=8" class="small">
+                            <span trn="forgot username password"> Can't sign in or forget your password? Click here.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+<div style="margin-top: 20px; border-top: 1px solid #dadada" class="small">
+    <span trn="legal footer">By logging in you agree to the following terms. View </span>
+    <a href="https://www.anytimefitness.com/terms-of-use/" target="_blank" trn="terms of use">Terms of Use</a> 
+    <span trn="and">and</span> 
+    <a href="https://www.anytimefitness.com/privacy/" target="_blank" trn="privacy policy">Privacy Policy</a>.
+</div>
+
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+</html>
