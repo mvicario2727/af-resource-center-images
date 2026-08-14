@@ -1,3 +1,6 @@
 
 # oversized doc — lives in Workvivo Documents, must not go to jsDelivr
 docs/72981726/Central-Nervous-Fatigue-Deloads.pptx
+
+# oversized files must never reach jsDelivr (GitHub rejects >100MB)
+**/Central-Nervous-Fatigue-Deloads.pptx
